@@ -6,6 +6,10 @@ print ("Marijuana Strain Price:")
 
 amount = float(input())
 
+print ("How many units of this strain are you purchasing?")
+
+units = int(input())
+
 print ("Amount of Strain:", amount)
 
 dispensaryTax = amount * 0.05
@@ -24,7 +28,7 @@ totalTax = dispensaryTax + countyTax + stateTax
 
 print ("Total Tax:", format (totalTax, '.2f'))
 
-subtotal = amount + totalTax
+subtotal = (amount * units) + totalTax
 
 print ("Subtotal of Sale:", format (subtotal, '.2f'))
 
