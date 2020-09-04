@@ -28,4 +28,4 @@ subtotal = amount + totalTax
 
 print ("Subtotal of Sale:", format (subtotal, '.2f'))
 
-print ("Thank you so much for using this . :D")
+print ("Thank you so much for using this . :D") 
